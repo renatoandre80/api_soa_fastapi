@@ -13,20 +13,21 @@ A API permite realizar as seguintes operações CRUD (Create, Read, Delete) em r
 
 ## Estrutura do Projeto
 
-## Estrutura do Projeto
-
 O projeto está organizado nos seguintes arquivos:
+
+```text
 ├── app/
-│ ├── init.py
-│ ├── crud.py
-│ ├── database.py
-│ ├── main.py
-│ ├── models.py
-│ └── schemas.py
+│   ├── __init__.py
+│   ├── crud.py
+│   ├── database.py
+│   ├── main.py
+│   ├── models.py
+│   └── schemas.py
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
 └── users.db (será gerado automaticamente)
+```
 
 ### main.py:
 
